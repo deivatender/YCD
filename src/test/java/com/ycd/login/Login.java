@@ -17,7 +17,7 @@ public class Login {
 		email.sendKeys("peter@yopmail.com");
 		WebElement psw=driver.findElement(By.xpath("//input[@type='password']"));
 		psw.sendKeys("Vss@1234");
-		WebElement lgnbtn=driver.findElement(By.xpath("//button[@type='submi']"));
+		WebElement lgnbtn=driver.findElement(By.xpath("//button[@type='submit']"));
 		lgnbtn.click();
 		}
 
